@@ -28,14 +28,6 @@ h1.logo> a > img {
     margin: 0px 0;
 }
 
-p.copyright{
-    visibility: hidden
-}
-p.copyright::before{
-    content: "HCL Technologies. Powered by CloudThat Technologies 2018.";
-    visibility: visible;
-}
-
 .home>header .title>.heading-group h1{
 text-indent: -9999px;
 line-height: 0
@@ -43,11 +35,15 @@ line-height: 0
 
 .home>header .title>.heading-group h1::after{
     text-indent:0;
-	content:'Welcome to HCL Technologies Open edX Platform!';
+	content:'Welcome to Microsoft Virtual Academy!';
 	display:block;
 	line-height: initial;
     }
 
+h1.logo > a > img {
+    width:120px;
+}
+	
 .home > header {
     background-color: #5e003a;
     background-image: url('https://hcllogo.blob.core.windows.net/hclbanner/hclbanner.jpg');

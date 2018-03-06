@@ -45,17 +45,8 @@
       </nav>
 	  
       ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-      <p class="copyright">${footer['copyright']} Powered by CloudThat Technologies</p>
+      <p class="copyright">${footer['copyright']} </p>
 
-      <nav class="nav-legal" aria-label="${_('Legal')}">
-        <ul>
-          % for item_num, link in enumerate(footer['legal_links'], start=1):
-            <li class="nav-legal-0${item_num}">
-              <a href="${link['url']}">${link['title']}</a>
-            </li>
-          % endfor
-        </ul>
-      </nav>
     </div>
 
     ## Please leave this link and use one of the logos provided
@@ -67,7 +58,7 @@
       <p>
         <!--<a href="${footer['openedx_link']['url']}">-->
 		<a href="https://cloudthat.in/" target="_blank">
-          <img src="https://hclstg.blob.core.windows.net/banner/poweredbyclt.png" alt="CloudThat Technologies" width="200" />
+          <img src="https://hclstg.blob.core.windows.net/banner/poweredbyclt.png" alt="CloudThat Technologies" width="140" />
         </a>
       </p>
     </div>

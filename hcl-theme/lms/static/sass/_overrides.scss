@@ -21,30 +21,21 @@ $blue: rgb(94, 100, 0);
     margin: 0px 0;
 }
 
-.home>header .title>.heading-group h1{
-text-indent: -9999px;
-line-height: 0
+.home>header .title {
+    display: none;
 }
 
-.home>header .title>.heading-group h1::after{
-    text-indent:0;
-	content:'Welcome to Microsoft Virtual Academy!';
-	display:block;
-	line-height: initial;
-    }
+.home>header {
+    background-color: #5e003a;
+    width: 1140px;
+    background-image: url('https://hcllogo.blob.core.windows.net/hclbanner/hclbanner.jpg');
+    height: 260px;
+}
 
 h1.logo > a > img {
     width:120px;
 }
-	
-.home > header {
-    background-color: #5e003a;
-    background-image: url('https://hcllogo.blob.core.windows.net/hclbanner/hclbanner.jpg');
-}
 
-.home>header .title>.heading-group p {
-    display: none;
-}
 
 .courses-container .courses .course {
     border-bottom-color: #5e3800;

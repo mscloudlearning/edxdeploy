@@ -53,16 +53,16 @@
     ## The OpenEdX link may be hidden when this view is served
     ## through an API to partner sites (such as marketing sites or blogs),
     ## which are not technically powered by OpenEdX.
-    % if not hide_openedx_link:
-    <div class="footer-about-openedx">
-      <p>
-        <!--<a href="${footer['openedx_link']['url']}">-->
-		<a href="https://cloudthat.in/" target="_blank">
-          <img src="https://hclstg.blob.core.windows.net/banner/poweredbyclt.png" alt="CloudThat Technologies" width="140" />
-        </a>
-      </p>
-    </div>
-    % endif
+    ##% if not hide_openedx_link:
+    ##<div class="footer-about-openedx">
+    ##  <p>
+    ##    <!--<a href="${footer['openedx_link']['url']}">-->
+	##	<a href="https://cloudthat.in/" target="_blank">
+    ##      <img src="https://hclstg.blob.core.windows.net/banner/poweredbyclt.png" alt="CloudThat Technologies" width="140" />
+    ##    </a>
+    ##  </p>
+    ##</div> -->
+    ##% endif
   </footer>
 </div>
 % if include_dependencies:

@@ -43,7 +43,7 @@ line-height: 0
 
 .home>header .title>.heading-group h1::after{
     text-indent:0;
-	content:'Welcome To HCL Technologies Open edX Platform!';
+	content:'Welcome to HCL Technologies Open edX Platform!';
 	display:block;
 	line-height: initial;
     }
@@ -53,6 +53,9 @@ line-height: 0
     background-image: url('https://hcllogo.blob.core.windows.net/hclbanner/hclbanner.jpg');
 }
 
+.home>header .title>.heading-group p {
+    display: none;
+}
 
 .courses-container .courses .course {
     border-bottom-color: #5e3800;
